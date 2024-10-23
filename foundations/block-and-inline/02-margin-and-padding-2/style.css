@@ -7,7 +7,22 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding-top: 8px;
+  padding-bottom: 8px; 
 }
+
+h1 {
+  font-size: 16px;
+}
+
+.title,
+.button-container,
+.content {
+  padding: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 
 .title {
   background: #e3f4ff;
@@ -15,13 +30,21 @@ body {
 
 .content {
   background: #e3f4ff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .button-container {
+  text-align: center;
   background: #e3f4ff;
+  padding: 8px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
