@@ -10,8 +10,10 @@
   display: flex;
 }
 
-ul {
+ul{
   display: flex;
+  padding: 15px 0; 
+  gap: 10px;
 }
 
 .logo {
