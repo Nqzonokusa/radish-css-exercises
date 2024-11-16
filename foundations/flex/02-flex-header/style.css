@@ -6,9 +6,9 @@
   align-items: center;
 }
 
-.left-links, .right-links{
+/* .left-links, .right-links{
   display: flex;
-}
+} */
 
 .left-links{
   margin-left: 8px;
