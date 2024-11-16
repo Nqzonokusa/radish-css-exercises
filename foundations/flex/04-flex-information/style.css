@@ -20,6 +20,9 @@ img {
 }
 
 .fruit-block{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 200px;
 }
 
