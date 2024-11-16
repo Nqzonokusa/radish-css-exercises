@@ -1,8 +1,17 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-links, .right-links{
+  display: flex;
+}
+
+ul {
+  display: flex;
 }
 
 .logo {
