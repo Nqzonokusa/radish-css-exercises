@@ -15,15 +15,10 @@ body {
   justify-content: center;
 }
 
-/* .main-header{
-  display: flex;
-  gap: 18px;
+
+.icon{
+  flex: 1 0 auto;
 }
-
-.header{
-  margin-right: auto;
-} */
-
 
 .modal {
   background: white;
