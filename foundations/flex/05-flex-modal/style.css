@@ -10,18 +10,20 @@ body {
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.top-elements{
+body, 
+.top-elements,
+.modal,
+.icon{
   display: flex;
+}
+
+.top-elements{
   justify-content: space-between;
   align-items: flex-end;
-}
-.icon{
-  flex: 1 0 auto;
 }
 
 .header{
@@ -38,8 +40,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 28px;
-  display: flex;
+  padding: 14px;
   gap: 18px;
 }
 
@@ -51,9 +52,9 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
 }
 
 .close-button {
