@@ -15,14 +15,15 @@ body {
   justify-content: center;
 }
 
-.main-header{
+/* .main-header{
   display: flex;
   gap: 18px;
 }
 
 .header{
   margin-right: auto;
-}
+} */
+
 
 .modal {
   background: white;
@@ -30,6 +31,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 28px;
+  display: flex;
 }
 
 .icon {
