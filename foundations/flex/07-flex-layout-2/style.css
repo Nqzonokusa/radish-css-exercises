@@ -54,9 +54,9 @@ li{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 48px;
-  height: 250px;
-  width: 250px;
+  height: 271px;
+  width: 300px;
+  padding: 16px;
 }
 
 .main{
@@ -67,5 +67,4 @@ li{
 .container{
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
 }
