@@ -29,7 +29,8 @@ ul {
   list-style-type: none;
 }
 
-.header{
+.header,
+.footer{
   display: flex;
   justify-content: space-between;
   padding: 18px;
@@ -49,4 +50,3 @@ ul {
   align-items: center;
   flex-direction: column;
 }
-
