@@ -10,6 +10,9 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
 
 .footer {
@@ -41,4 +44,5 @@ body {
 .container{
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-evenly;
 }
