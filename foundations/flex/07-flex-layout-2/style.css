@@ -65,7 +65,7 @@ li{
 
 .container{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row wrap; /* flex-direction and flex-wrap */
   padding: 48px;
   gap: 32px;
 }
