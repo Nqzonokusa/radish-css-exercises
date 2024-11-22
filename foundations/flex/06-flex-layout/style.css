@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -49,4 +51,5 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex: 1 1 auto;
 }
